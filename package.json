@@ -1,6 +1,6 @@
 {
-  "name": "gemmini-endword",
-  "description": "10대 젊은이 말투를 사용하는 AI 챗봇, Gemmini (잼민이 챗봇)",
+  "name": "끝말잇기기",
+  "description": "끝말잇기 게임",
   "version": "0.1.0",
   "private": true,
   "scripts": {

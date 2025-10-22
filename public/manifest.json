@@ -1,7 +1,7 @@
 {
-  "name": "Gemmini - 잼민이 AI 챗봇",
-  "short_name": "Gemmini",
-  "description": "10대 젊은이 말투를 사용하는 친근한 AI 챗봇",
+  "name": "끝맛잇기",
+  "short_name": "끝말잇기",
+  "description": "끝말잇기 게임",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
