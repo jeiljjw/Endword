@@ -99,6 +99,7 @@ export const useGameLogic = () => {
       const lastWord = words[words.length - 1].text.trim();
       if (!checkWordChain(trimmedText, lastWord)) {
         showError(`'${lastWord.charAt(lastWord.length - 1)}'(으)로 시작하는 단어를 입력해주세요.`);
+        setLoading(false);
         return;
       }
     }
@@ -106,6 +107,7 @@ export const useGameLogic = () => {
     // Check for duplicate words
     if (checkDuplicateWord(trimmedText, words)) {
       showError(MESSAGES.DUPLICATE_WORD);
+      setLoading(false);
       return;
     }
 
