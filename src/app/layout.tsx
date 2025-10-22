@@ -57,7 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         }}>
           <ins className="kakao_ad_area"
             style={{ display: 'block', width: 160, height: 600 }}
-            data-ad-unit="DAN-"
+            data-ad-unit="DAN-ZybNET6eWUrlFD8Z"
             data-ad-width="160"
             data-ad-height="600"
           ></ins>
@@ -92,7 +92,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         }}>
           <ins className="kakao_ad_area"
             style={{ display: 'block', width: 160, height: 600 }}
-            data-ad-unit="DAN-"
+            data-ad-unit="DAN-r2yVQG1CBItuDqNP"
             data-ad-width="160"
             data-ad-height="600"
           ></ins>
